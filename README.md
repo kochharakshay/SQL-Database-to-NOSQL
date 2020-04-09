@@ -20,33 +20,33 @@ We had 3 tables that were normalized in the previous assignment. These tables we
 3.	Teams table
 
 # Web scrape tweets from twitter
-CONSUMER_KEY = 'auTIVP4hHiJA7Snb4XYWWEofR'
+    CONSUMER_KEY = 'auTIVP4hHiJA7Snb4XYWWEofR'
 
-CONSUMER_SECRET = 'VeoKqZ1twMgYaxTSNB6MRO6dvg112BYuTajEZJMw8gzutjpDKR'
+    CONSUMER_SECRET = 'VeoKqZ1twMgYaxTSNB6MRO6dvg112BYuTajEZJMw8gzutjpDKR'
 
-ACCESS_TOKEN = '1121864797-GyTUHsApFDjZGoP4ovCDXudSq48wXUXGiBwVczo'
+    ACCESS_TOKEN = '1121864797-GyTUHsApFDjZGoP4ovCDXudSq48wXUXGiBwVczo'
 
-ACCESS_TOKEN_SECRET = 'I5FK5vwn70xskQTgHema1VzAZLoHZIR1NDlTXHfvuTSVS'
+    ACCESS_TOKEN_SECRET = 'I5FK5vwn70xskQTgHema1VzAZLoHZIR1NDlTXHfvuTSVS'
 
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 
-auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
-api = tweepy.API(auth)
+    api = tweepy.API(auth)
 
-#Create a new csv file
+    #Create a new csv file
 
-csv_file = open('teamindia.csv', 'w+')
+    csv_file = open('teamindia.csv', 'w+')
 
-#Write rows in those csv files
+    #Write rows in those csv files
 
-csv_writer = csv.writer(csv_file)
+    csv_writer = csv.writer(csv_file)
 
-csv_writer.writerow(['Timestamp', 'Tweet', 'username', 'hashtags' ,"followers_count"])
+    csv_writer.writerow(['Timestamp', 'Tweet', 'username', 'hashtags' ,"followers_count"])
 
-#Search for the mentioned hashtag
+    #Search for the mentioned hashtag
 
-for tweet in tweepy.Cursor(api.search, q="#teamindia",
+    for tweet in tweepy.Cursor(api.search, q="#teamindia",
                       lang="en",
 
                       since="2019-01-01").items(100):
