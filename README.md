@@ -231,20 +231,20 @@ for index,row in df_players.iterrows():
     result = mydb.teams_dataset.insert_many(records13)
 
 # Query to display the instance where players have social media account from ICC collection
-db.ICC.aggregate([{$lookup:{localField: "user_id", from : "Twitter_Specifications", foreignField: "_id", as: "TwitterHandle" }},{$project :{ "Player":1,"TwitterHandle.Twitter ID":1}}]).pretty();
+    db.ICC.aggregate([{$lookup:{localField: "user_id", from : "Twitter_Specifications", foreignField: "_id", as: "TwitterHandle" }},{$project :{ "Player":1,"TwitterHandle.Twitter ID":1}}]).pretty();
 
 # Use case which gives Highest Runs:
-db.most_runs.find().sort({Runs:-1}).limit(1).pretty()
+    db.most_runs.find().sort({Runs:-1}).limit(1).pretty()
 
 # Use-cases which give most number of wickets:
-db.most_wickets.find().sort({Wickets:-1}).limit(1).pretty()
+    db.most_wickets.find().sort({Wickets:-1}).limit(1).pretty()
 
 # Use-case which gives players with average runs scored
-db.most_runs.aggregate({$match : {Runs : { 𝑔𝑡:250,gt:250,lte : 350 }}}]).pretty()
+    db.most_runs.aggregate({$match : {Runs : { 𝑔𝑡:250,gt:250,lte : 350 }}}]).pretty()
 
 # Use case to give highest trending player on twitter
-db.Twitter_Specifications.aggregate([{$sort:{"Followers Count" : -1}},{$project:{"_id": 0 ,"Player Name":1, "Followers Count":1}}]).pretty()
+    db.Twitter_Specifications.aggregate([{$sort:{"Followers Count" : -1}},{$project:{"_id": 0 ,"Player Name":1, "Followers Count":1}}]).pretty()
 
 # Use-case to display team india players
-db.ICC.aggregate([{$match:{"team.teamname" :"India" }},{$project:{"_id":0,"PlayerID":1, "Player":1, "team.teamname":1}}]).pretty()
+    db.ICC.aggregate([{$match:{"team.teamname" :"India" }},{$project:{"_id":0,"PlayerID":1, "Player":1, "team.teamname":1}}]).pretty()
 
