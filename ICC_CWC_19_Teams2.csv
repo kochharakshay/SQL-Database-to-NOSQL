@@ -1,0 +1,11 @@
+Team_ID,Team_name,Matches,Wins,Losses,Board_Id
+T1,India,10,7,2,B1
+T2,Australia,10,7,3,B2
+T3,England,10,7,3,B3
+T4,New Zealand,10,6,3,B4
+T5,Pakistan,8,5,3,B5
+T6,Sri Lanka,8,3,4,B6
+T7,South Africa,9,3,5,B7
+T8,Bangladesh,9,3,5,B8
+T9,West Indies,9,2,6,B9
+T10,Afghanistan,9,0,9,B10

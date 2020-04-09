@@ -1,0 +1,153 @@
+Player_Name,Player_Id,Team_Id
+Gulbadin Naib (c),1,T10
+Rashid Khan (vc),2,T10
+Aftab Alam,3,T10
+Asghar Afghan,4,T10
+Dawlat Zadran,5,T10
+Hamid Hassan,6,T10
+Hashmatullah Shahidi,7,T10
+Hazratullah Zazai,8,T10
+Mohammad Nabi,9,T10
+Mohammad Shahzad (wk),10,T10
+Mujeeb Ur Rahman,11,T10
+Najibullah Zadran,12,T10
+Noor Ali Zadran,13,T10
+Rahmat Shah,14,T10
+Samiullah Shinwari,15,T10
+Aaron Finch (c),16,T2
+Pat Cummins (vc),17,T2
+Alex Carey (wk),18,T2
+Jason Behrendorff,19,T2
+Nathan Coulter-Nile,20,T2
+Usman Khawaja,21,T2
+Nathan Lyon,22,T2
+Shaun Marsh,23,T2
+Glenn Maxwell,24,T2
+Jhye Richardson,25,T2
+Kane Richardson,26,T2
+Steve Smith,27,T2
+Mitchell Starc,28,T2
+Marcus Stoinis,29,T2
+David Warner,30,T2
+Adam Zampa,31,T2
+Mashrafe Mortaza (c),32,T8
+Shakib Al Hasan (vc),33,T8
+Tamim Iqbal,34,T8
+Liton Das,35,T8
+Mushfiqur Rahim (wk),36,T8
+Mahmudullah,37,T8
+Mohammad Mithun,38,T8
+Sabbir Rahman,39,T8
+Mehedi Hasan Miraz,40,T8
+Soumya Sarkar,41,T8
+Rubel Hossain,42,T8
+Mohammad Saifuddin,43,T8
+Mosaddek Hossain,44,T8
+Mustafizur Rahman,45,T8
+Abu Jayed,46,T8
+Eoin Morgan (c),47,T3
+"Jos Buttler (vc, wk)",48,T3
+Moeen Ali,49,T3
+Jonny Bairstow,50,T3
+Tom Curran,51,T3
+Joe Denly,52,T3
+Alex Hales,53,T3
+Liam Plunkett,54,T3
+Adil Rashid,55,T3
+Joe Root,56,T3
+Jason Roy,57,T3
+Ben Stokes,58,T3
+David Willey,59,T3
+Chris Woakes,60,T3
+Mark Wood,61,T3
+Virat Kohli (c),62,T1
+Rohit Sharma (vc),63,T1
+Shikhar Dhawan,64,T1
+K. L. Rahul,65,T1
+Vijay Shankar,66,T1
+MS Dhoni (wk),67,T1
+Kedar Jadhav,68,T1
+Dinesh Karthik,69,T1
+Yuzvendra Chahal,70,T1
+Kuldeep Yadav,71,T1
+Bhuvneshwar Kumar,72,T1
+Jasprit Bumrah,73,T1
+Hardik Pandya,74,T1
+Ravindra Jadeja,75,T1
+Mohammed Shami,76,T1
+Kane Williamson (c),77,T4
+"Tom Latham (vc, wk)",78,T4
+Tim Southee,79,T4
+Tom Blundell,80,T4
+Trent Boult,81,T4
+Colin de Grandhomme,82,T4
+Lockie Ferguson,83,T4
+Martin Guptill,84,T4
+Matt Henry,85,T4
+Colin Munro,86,T4
+James Neesham,87,T4
+Henry Nicholls,88,T4
+Mitchell Santner,89,T4
+Ish Sodhi,90,T4
+Ross Taylor,91,T4
+"Sarfaraz Ahmed (c, wk)",92,T5
+Babar Azam (vc),93,T5
+Shoaib Malik,94,T5
+Fakhar Zaman,95,T5
+Imam-ul-Haq,96,T5
+Abid Ali,97,T5
+Mohammad Hafeez,98,T5
+Shadab Khan,99,T5
+Imad Wasim,100,T5
+Hasan Ali,101,T5
+Faheem Ashraf,102,T5
+Shaheen Afridi,103,T5
+Junaid Khan,104,T5
+Mohammad Hasnain,105,T5
+Haris Sohail,106,T5
+Faf du Plessis (c),107,T7
+"Quinton de Kock (vc, wk)",108,T7
+Hashim Amla,109,T7
+Aiden Markram,110,T7
+Rassie van der Dussen,111,T7
+David Miller,112,T7
+JP Duminy,113,T7
+Andile Phehlukwayo,114,T7
+Dwaine Pretorius,115,T7
+Dale Steyn,116,T7
+Kagiso Rabada,117,T7
+Lungi Ngidi,118,T7
+Anrich Nortje,119,T7
+Chris Morris,120,T7
+Imran Tahir,121,T7
+Tabraiz Shamsi,122,T7
+Dimuth Karunaratne (c),123,T6
+Dhananjaya de Silva (vc),124,T6
+Angelo Mathews,125,T6
+Avishka Fernando,126,T6
+Lahiru Thirimanne,127,T6
+Kusal Mendis,128,T6
+Kusal Perera (wk),129,T6
+Thisara Perera,130,T6
+Isuru Udana,131,T6
+Jeffrey Vandersay,132,T6
+Jeevan Mendis,133,T6
+Milinda Siriwardana,134,T6
+Lasith Malinga,135,T6
+Suranga Lakmal,136,T6
+Nuwan Pradeep,137,T6
+Jason Holder (c),138,T9
+Chris Gayle (vc),139,T9
+Carlos Brathwaite,140,T9
+Darren Bravo,141,T9
+Sheldon Cottrell,142,T9
+Fabian Allen,143,T9
+Shannon Gabriel,144,T9
+Shimron Hetmyer,145,T9
+Shai Hope,146,T9
+Evin Lewis,147,T9
+Ashley Nurse,148,T9
+Nicholas Pooran (wk),149,T9
+Kemar Roach,150,T9
+Andre Russell,151,T9
+Oshane Thomas,152,T9
